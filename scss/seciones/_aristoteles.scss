@@ -76,6 +76,24 @@
                 }
             }
         }
+        .biografia-aris{
+            margin-top: 175px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding :10px;
+            align-items: center;
+            h2{
+                color: white;
+                text-align: right;
+            }
+            p{
+                color: white;
+                text-align: justify;
+            }
+        }
     }
 
     footer {

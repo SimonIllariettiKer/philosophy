@@ -102,6 +102,21 @@ footer {
         justify-content: space-between; }
         .cuerpo-aristoteles .main-aristoteles .h1-img .img-aris img {
           height: 100px; }
+    .cuerpo-aristoteles .main-aristoteles .biografia-aris {
+      margin-top: 175px;
+      margin-left: 20px;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+      align-items: center; }
+      .cuerpo-aristoteles .main-aristoteles .biografia-aris h2 {
+        color: white;
+        text-align: right; }
+      .cuerpo-aristoteles .main-aristoteles .biografia-aris p {
+        color: white;
+        text-align: justify; }
   .cuerpo-aristoteles footer {
     height: 100px;
     background-color: #6969d7;
