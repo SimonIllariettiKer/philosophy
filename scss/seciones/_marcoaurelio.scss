@@ -1,0 +1,88 @@
+.cuerpo-maurelio {
+    background-color: brown;
+
+    header {
+        .nav-maurelio {
+            background-color: #a52a2a89;
+            height: 200px;
+
+            ul {
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    height: 150px;
+                }
+
+                .li-nav {
+                    width: 50%;
+                    margin-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 25%;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            color: gold;
+                            text-decoration: none;
+                            font-size: 16px;
+
+                            &:hover {
+                                color: silver;
+                                text-decoration: underline;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-maurelio {
+        border: solid gold 4px;
+        display: flex;
+        flex-direction: column;
+
+        .h1-img {
+            position: absolute;
+            width: 95%;
+            margin-left: 15px;
+            margin-top: 30px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                font-size: 43px;
+                margin-left: 10px;
+                color: gold;
+            }
+
+            .img-mau {
+                margin-right: 15px;
+                width: 250px;
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 100px;
+        background-color: #a52a2a89;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,88 @@
+.cuerpo-maquiavelo {
+    background-color: green;
+
+    header {
+        .nav-maquiavelo {
+            background-color: seagreen;
+            height: 200px;
+
+            ul {
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    height: 150px;
+                }
+
+                .li-nav {
+                    width: 50%;
+                    margin-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 25%;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            color: silver;
+                            text-decoration: none;
+                            font-size: 16px;
+
+                            &:hover {
+                                color: black;
+                                text-decoration: underline;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-maquiavelo {
+        border: solid silver 4px;
+        display: flex;
+        flex-direction: column;
+
+        .h1-img {
+            position: absolute;
+            width: 95%;
+            margin-left: 15px;
+            margin-top: 30px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                font-size: 43px;
+                margin-left: 10px;
+                color: silver;
+            }
+
+            .img-maq {
+                margin-right: 15px;
+                width: 250px;
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 100px;
+        background-color: seagreen;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}

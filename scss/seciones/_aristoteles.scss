@@ -1,0 +1,88 @@
+.cuerpo-aristoteles {
+    background-color: #4b4bed;
+
+    header {
+        .nav-aristoteles {
+            background-color: #6969d7;
+            height: 200px;
+
+            ul {
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    height: 150px;
+                }
+
+                .li-nav {
+                    width: 50%;
+                    margin-right: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 25%;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            font-size: 16px;
+
+                            &:hover {
+                                color: gold;
+                                text-decoration: underline;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-aristoteles {
+        border: solid seashell 4px;
+        display: flex;
+        flex-direction: column;
+
+        .h1-img {
+            position: absolute;
+            width: 95%;
+            margin-left: 15px;
+            margin-top: 30px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                font-size: 43px;
+                margin-left: 10px;
+                color: white;
+            }
+
+            .img-aris {
+                margin-right: 15px;
+                width: 250px;
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 100px;
+        background-color: #6969d7;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}

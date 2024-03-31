@@ -1,0 +1,350 @@
+header .nav-index {
+  background-color: seashell;
+  height: 200px; }
+  header .nav-index ul {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .nav-index ul img {
+      height: 150px; }
+    header .nav-index ul .li-nav {
+      width: 50%;
+      margin-right: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 25%; }
+      header .nav-index ul .li-nav li {
+        list-style: none; }
+        header .nav-index ul .li-nav li a {
+          color: black;
+          text-decoration: none;
+          font-size: 16px; }
+          header .nav-index ul .li-nav li a:hover {
+            color: navy;
+            text-decoration: underline;
+            font-size: 20px; }
+
+main {
+  display: flex;
+  align-items: center;
+  height: 600px; }
+  main .p-filo {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify; }
+
+footer {
+  height: 100px;
+  background-color: seashell;
+  justify-content: center;
+  display: flex;
+  align-items: center; }
+
+footer {
+  height: 100px;
+  background-color: seashell;
+  justify-content: center;
+  display: flex;
+  align-items: center; }
+
+.cuerpo-aristoteles {
+  background-color: #4b4bed; }
+  .cuerpo-aristoteles header .nav-aristoteles {
+    background-color: #6969d7;
+    height: 200px; }
+    .cuerpo-aristoteles header .nav-aristoteles ul {
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-aristoteles header .nav-aristoteles ul img {
+        height: 150px; }
+      .cuerpo-aristoteles header .nav-aristoteles ul .li-nav {
+        width: 50%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 25%; }
+        .cuerpo-aristoteles header .nav-aristoteles ul .li-nav li {
+          list-style: none; }
+          .cuerpo-aristoteles header .nav-aristoteles ul .li-nav li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px; }
+            .cuerpo-aristoteles header .nav-aristoteles ul .li-nav li a:hover {
+              color: gold;
+              text-decoration: underline;
+              font-size: 20px; }
+  .cuerpo-aristoteles .main-aristoteles {
+    border: solid seashell 4px;
+    display: flex;
+    flex-direction: column; }
+    .cuerpo-aristoteles .main-aristoteles .h1-img {
+      position: absolute;
+      width: 95%;
+      margin-left: 15px;
+      margin-top: 30px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-aristoteles .main-aristoteles .h1-img h1 {
+        font-size: 43px;
+        margin-left: 10px;
+        color: white; }
+      .cuerpo-aristoteles .main-aristoteles .h1-img .img-aris {
+        margin-right: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between; }
+        .cuerpo-aristoteles .main-aristoteles .h1-img .img-aris img {
+          height: 100px; }
+  .cuerpo-aristoteles footer {
+    height: 100px;
+    background-color: #6969d7;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+
+.cuerpo-aristoteles {
+  background-color: #4b4bed; }
+  .cuerpo-aristoteles header .nav-aristoteles {
+    background-color: #6969d7;
+    height: 200px; }
+    .cuerpo-aristoteles header .nav-aristoteles ul {
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-aristoteles header .nav-aristoteles ul img {
+        height: 150px; }
+      .cuerpo-aristoteles header .nav-aristoteles ul .li-nav {
+        width: 50%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 25%; }
+        .cuerpo-aristoteles header .nav-aristoteles ul .li-nav li {
+          list-style: none; }
+          .cuerpo-aristoteles header .nav-aristoteles ul .li-nav li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px; }
+            .cuerpo-aristoteles header .nav-aristoteles ul .li-nav li a:hover {
+              color: gold;
+              text-decoration: underline;
+              font-size: 20px; }
+  .cuerpo-aristoteles .main-aristoteles {
+    border: solid seashell 4px;
+    display: flex;
+    flex-direction: column; }
+    .cuerpo-aristoteles .main-aristoteles .h1-img {
+      position: absolute;
+      width: 95%;
+      margin-left: 15px;
+      margin-top: 30px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-aristoteles .main-aristoteles .h1-img h1 {
+        font-size: 43px;
+        margin-left: 10px;
+        color: white; }
+      .cuerpo-aristoteles .main-aristoteles .h1-img .img-aris {
+        margin-right: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between; }
+        .cuerpo-aristoteles .main-aristoteles .h1-img .img-aris img {
+          height: 100px; }
+  .cuerpo-aristoteles footer {
+    height: 100px;
+    background-color: #6969d7;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+
+.cuerpo-nietzsche {
+  background-color: black; }
+  .cuerpo-nietzsche header .nav-nietzsche {
+    background-color: #ffd9008c;
+    height: 200px; }
+    .cuerpo-nietzsche header .nav-nietzsche ul {
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-nietzsche header .nav-nietzsche ul img {
+        height: 150px; }
+      .cuerpo-nietzsche header .nav-nietzsche ul .li-nav {
+        width: 50%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 25%; }
+        .cuerpo-nietzsche header .nav-nietzsche ul .li-nav li {
+          list-style: none; }
+          .cuerpo-nietzsche header .nav-nietzsche ul .li-nav li a {
+            color: gold;
+            text-decoration: none;
+            font-size: 16px; }
+            .cuerpo-nietzsche header .nav-nietzsche ul .li-nav li a:hover {
+              color: silver;
+              text-decoration: underline;
+              font-size: 20px; }
+  .cuerpo-nietzsche .main-nietzsche {
+    border: solid gold 4px;
+    display: flex;
+    flex-direction: column; }
+    .cuerpo-nietzsche .main-nietzsche .h1-img {
+      position: absolute;
+      width: 95%;
+      margin-left: 15px;
+      margin-top: 30px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-nietzsche .main-nietzsche .h1-img h1 {
+        font-size: 43px;
+        margin-left: 10px;
+        color: gold; }
+      .cuerpo-nietzsche .main-nietzsche .h1-img .img-niet {
+        margin-right: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between; }
+        .cuerpo-nietzsche .main-nietzsche .h1-img .img-niet img {
+          height: 100px; }
+  .cuerpo-nietzsche footer {
+    height: 100px;
+    background-color: #ffd9008c;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+
+.cuerpo-maquiavelo {
+  background-color: green; }
+  .cuerpo-maquiavelo header .nav-maquiavelo {
+    background-color: seagreen;
+    height: 200px; }
+    .cuerpo-maquiavelo header .nav-maquiavelo ul {
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-maquiavelo header .nav-maquiavelo ul img {
+        height: 150px; }
+      .cuerpo-maquiavelo header .nav-maquiavelo ul .li-nav {
+        width: 50%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 25%; }
+        .cuerpo-maquiavelo header .nav-maquiavelo ul .li-nav li {
+          list-style: none; }
+          .cuerpo-maquiavelo header .nav-maquiavelo ul .li-nav li a {
+            color: silver;
+            text-decoration: none;
+            font-size: 16px; }
+            .cuerpo-maquiavelo header .nav-maquiavelo ul .li-nav li a:hover {
+              color: black;
+              text-decoration: underline;
+              font-size: 20px; }
+  .cuerpo-maquiavelo .main-maquiavelo {
+    border: solid silver 4px;
+    display: flex;
+    flex-direction: column; }
+    .cuerpo-maquiavelo .main-maquiavelo .h1-img {
+      position: absolute;
+      width: 95%;
+      margin-left: 15px;
+      margin-top: 30px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-maquiavelo .main-maquiavelo .h1-img h1 {
+        font-size: 43px;
+        margin-left: 10px;
+        color: silver; }
+      .cuerpo-maquiavelo .main-maquiavelo .h1-img .img-maq {
+        margin-right: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between; }
+        .cuerpo-maquiavelo .main-maquiavelo .h1-img .img-maq img {
+          height: 100px; }
+  .cuerpo-maquiavelo footer {
+    height: 100px;
+    background-color: seagreen;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+
+.cuerpo-maurelio {
+  background-color: brown; }
+  .cuerpo-maurelio header .nav-maurelio {
+    background-color: #a52a2a89;
+    height: 200px; }
+    .cuerpo-maurelio header .nav-maurelio ul {
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-maurelio header .nav-maurelio ul img {
+        height: 150px; }
+      .cuerpo-maurelio header .nav-maurelio ul .li-nav {
+        width: 50%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 25%; }
+        .cuerpo-maurelio header .nav-maurelio ul .li-nav li {
+          list-style: none; }
+          .cuerpo-maurelio header .nav-maurelio ul .li-nav li a {
+            color: gold;
+            text-decoration: none;
+            font-size: 16px; }
+            .cuerpo-maurelio header .nav-maurelio ul .li-nav li a:hover {
+              color: silver;
+              text-decoration: underline;
+              font-size: 20px; }
+  .cuerpo-maurelio .main-maurelio {
+    border: solid gold 4px;
+    display: flex;
+    flex-direction: column; }
+    .cuerpo-maurelio .main-maurelio .h1-img {
+      position: absolute;
+      width: 95%;
+      margin-left: 15px;
+      margin-top: 30px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cuerpo-maurelio .main-maurelio .h1-img h1 {
+        font-size: 43px;
+        margin-left: 10px;
+        color: gold; }
+      .cuerpo-maurelio .main-maurelio .h1-img .img-mau {
+        margin-right: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between; }
+        .cuerpo-maurelio .main-maurelio .h1-img .img-mau img {
+          height: 100px; }
+  .cuerpo-maurelio footer {
+    height: 100px;
+    background-color: #a52a2a89;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
